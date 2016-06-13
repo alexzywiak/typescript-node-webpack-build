@@ -1,0 +1,25 @@
+{
+  "name": "crap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "webpack": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.5",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-decorators": "^1.4.0",
+    "koa-router": "^5.4.0"
+  }
+}
